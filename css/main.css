@@ -13,6 +13,7 @@ body {
 }
 
 nav {
+  display: flex;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0);
   padding-top: 40px;
@@ -183,17 +184,15 @@ section img {
     display: none;
   }
   nav {
-    justify-content: flex-start;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 1rem;
   }
   nav ul {
     gap: 0;
   }
   nav img {
     margin: auto;
-  }
-  nav .buttons {
-    gap: 10px;
+    align-items: flex-start;
   }
   nav .buttons button {
     margin: auto;
@@ -223,6 +222,9 @@ section img {
     border: none;
   }
   nav .buttons .offcanvas h5 {
+    position: absolute;
+    right: 35%;
+    text-align: center;
     color: #fff;
     font-size: 2em;
     font-family: "Poppins", sans-serif;
@@ -233,6 +235,7 @@ section img {
   }
   nav .buttons .offcanvas-body ul {
     flex-direction: column;
+    text-align: center;
   }
   nav .buttons .offcanvas-body ul a:hover {
     color: #ff76fc;
@@ -241,14 +244,15 @@ section img {
     margin: auto;
   }
   main .contain-sections h1 {
-    font-size: 6em;
+    font-size: 5em;
+    text-align: center;
   }
   main .contain-sections article {
     margin-top: 5rem;
     align-items: center;
   }
   main .contain-sections article h2 {
-    font-size: 3em;
+    font-size: 2.6em;
   }
   main .contain-sections article p {
     font-size: 0.9em;
@@ -260,7 +264,7 @@ section img {
             backdrop-filter: blur(5px);
   }
   footer section {
-    margin: auto;
+    margin: 0;
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 5rem;
     flex-direction: column;
@@ -271,7 +275,6 @@ section img {
     display: none;
   }
   footer section .section1 {
-    flex-direction: column;
     gap: 0;
   }
 }/*# sourceMappingURL=main.css.map */
