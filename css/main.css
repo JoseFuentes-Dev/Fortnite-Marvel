@@ -18,6 +18,9 @@ nav {
   background-color: rgba(0, 0, 0, 0);
   padding-top: 40px;
 }
+nav .btn-open {
+  display: none;
+}
 nav img {
   margin-left: 4rem;
   width: 180px;
@@ -169,4 +172,101 @@ section .section1 {
 }
 section img {
   width: 50px;
+}
+
+/* responsive mobile -more-than: Mobile: 610px */
+@media only screen and (max-width: 610px) {
+  body {
+    background: url("../images/fortnite-wallpaper-mobile.jpg") no-repeat;
+    background-size: cover;
+  }
+  .contain-logo ul li {
+    display: none;
+  }
+  nav {
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+  nav ul {
+    gap: 0;
+  }
+  nav img {
+    margin: auto;
+  }
+  nav .buttons {
+    gap: 10px;
+  }
+  nav .buttons button {
+    margin: auto;
+    background-color: rgba(255, 118, 252, 0);
+    border: 2px solid #ff76fc;
+  }
+  nav .buttons button:hover {
+    background-color: rgba(255, 118, 252, 0.6);
+  }
+  nav .buttons .btn-open {
+    display: block;
+    background-color: rgba(255, 118, 252, 0.6);
+  }
+  nav .buttons .btn-open:hover {
+    background-color: #ff76fc;
+  }
+  nav .buttons .btn-close {
+    border: none;
+    background-color: #fff;
+    border-radius: 50px;
+  }
+  nav .buttons .offcanvas {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    border: none;
+  }
+  nav .buttons .offcanvas h5 {
+    color: #fff;
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  nav .buttons .offcanvas-body ul {
+    flex-direction: column;
+  }
+  nav .buttons .offcanvas-body ul a:hover {
+    color: #ff76fc;
+  }
+  main .contain-sections {
+    margin: auto;
+  }
+  main .contain-sections h1 {
+    font-size: 6em;
+  }
+  main .contain-sections article {
+    margin-top: 5rem;
+    align-items: center;
+  }
+  main .contain-sections article h2 {
+    font-size: 3em;
+  }
+  main .contain-sections article p {
+    font-size: 0.9em;
+  }
+  footer section {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+  }
+  footer section .image-mobile {
+    display: none;
+  }
+  footer section .section1 {
+    flex-direction: column;
+    gap: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,109 @@
+/* responsive mobile -more-than: Mobile: 610px */
+@media only screen and (max-width:610px){
+    body{
+        background: url('../images/fortnite-wallpaper-mobile.jpg') no-repeat;
+        background-size: cover;
+    }
+        .contain-logo{
+            ul{
+               li{
+                display: none;
+               }
+            }
+        }
+     nav{ 
+        justify-content: flex-start;
+        gap: 3rem;
+        
+        ul{
+            gap: 0;
+        }
+        img{
+            margin: auto;
+
+        }    
+        .buttons{
+            gap: 10px;
+            button{
+                margin: auto;
+                background-color: rgba(#ff76fc,0);
+                border: 2px solid #ff76fc;
+                &:hover{
+                    background-color: rgba(#ff76fc,.6); 
+                }
+            }
+            .btn-open{
+                display: block;
+                background-color: rgba(#ff76fc,.6);
+                &:hover{
+                    background-color: rgba(#ff76fc,1);
+                } 
+            }
+            .btn-close{
+                border: none;
+                background-color: #fff;
+                border-radius: 50px;
+
+            }
+            .offcanvas{
+                display: block;
+                background-color: rgba(#fff,.2);
+                backdrop-filter: blur(10px);
+                border: none;
+                h5{
+                    color: #fff;
+                    font-size: 2em;
+                    font-family: 'Poppins', sans-serif;
+                    user-select: none;
+                }
+            }
+            .offcanvas-body{
+                ul{
+                    flex-direction: column;
+                    a{
+                            &:hover{
+                            color: #ff76fc;
+
+                        }
+                    }
+                }
+            }
+        }
+     }
+main{
+    .contain-sections{
+        margin: auto;
+        h1{
+            font-size: 6em;
+        }
+        article{
+            margin-top: 5rem;
+            align-items: center;
+
+            h2{
+               font-size: 3em;
+            }
+            p{
+                font-size: .9em;
+            }
+        }
+    }
+}
+footer{
+    section{
+        margin: auto;
+        background-color: rgba(#000,.5);
+        margin-top: 5rem;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0;
+        .image-mobile{
+            display: none;
+        }
+        .section1{
+            flex-direction: column;
+            gap: 0;
+        }
+    }
+}
+}
