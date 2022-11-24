@@ -254,6 +254,12 @@ section img {
   main .contain-sections article p {
     font-size: 0.9em;
   }
+  main .contain-sections article .buttons .button2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
   footer section {
     margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
