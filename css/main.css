@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/Fortnite-desktop-wallpapers.jpg") no-repeat;
+  background-size: cover;
+  background-position-y: -90px;
+  min-height: 100vh;
+}
+
+nav {
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 40px;
+}
+nav img {
+  margin-left: 4rem;
+  width: 180px;
+}
+nav ul {
+  margin-top: 15px;
+  gap: 30px;
+}
+nav ul a {
+  text-decoration: none;
+}
+nav ul a li {
+  list-style: none;
+  color: #fff;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+nav ul a li:hover {
+  background-color: rgba(255, 118, 252, 0.7);
+  border-radius: 10px;
+}
+nav button {
+  margin-right: 5rem;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  background-color: rgba(255, 118, 252, 0.85);
+  align-self: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+nav button:hover {
+  border: none;
+  background-color: #ff76fc;
+}
+
+main {
+  margin-top: 8rem;
+}
+main .contain-sections {
+  margin-left: 4rem;
+}
+main .contain-sections h1 {
+  color: #fff;
+  font-size: 7em;
+  font-family: "Poppins", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main .contain-sections article {
+  margin-top: 2rem;
+  flex-direction: column;
+  gap: 10px;
+}
+main .contain-sections article h2 {
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-size: 2.6em;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+main .contain-sections article p {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+main .contain-sections article .buttons {
+  gap: 20px;
+}
+main .contain-sections article .buttons button {
+  font-size: 0.9em;
+  border: none;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+main .contain-sections article .buttons .button1 {
+  background-color: rgba(255, 118, 252, 0.8);
+  color: #fff;
+}
+main .contain-sections article .buttons .button1:hover {
+  background-color: #ff76fc;
+}
+main .contain-sections article .buttons .button2 {
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  border: 1px solid #ff76fc;
+}
+main .contain-sections article .buttons .button2:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 25px;
+  margin: 5rem 40rem 2rem 0;
+  border-radius: 0 10px 10px 0;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+section .all-contain-details {
+  flex-direction: row;
+  justify-content: space-between;
+}
+section .image-mobile {
+  border-radius: 10px;
+  margin-left: 3rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+section .image-mobile img {
+  width: 130px;
+}
+section .image-mobile img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+  transition: all 1s ease;
+}
+section span {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+section p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 30px;
+}
+section .section1 {
+  flex-direction: column;
+  gap: 30px;
+}
+section img {
+  width: 50px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: url('../images/Fortnite-desktop-wallpapers.jpg') no-repeat;
+    background-size:cover;
+    background-position-y:-90px ;
+    min-height: 100vh;
+}
