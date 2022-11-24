@@ -225,7 +225,7 @@ section img {
     position: absolute;
     right: 35%;
     text-align: center;
-    color: #fff;
+    color: #ff76fc;
     font-size: 2em;
     font-family: "Poppins", sans-serif;
     -webkit-user-select: none;
@@ -264,11 +264,12 @@ section img {
             backdrop-filter: blur(5px);
   }
   footer section {
+    text-align: center;
     margin: 0;
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 5rem;
     flex-direction: column;
-    align-items: center;
+    padding: 40px;
     border-radius: 0;
   }
   footer section .image-mobile {
