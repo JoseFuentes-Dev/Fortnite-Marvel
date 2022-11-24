@@ -9,7 +9,6 @@
 body {
   background: url("../images/Fortnite-desktop-wallpapers.jpg") no-repeat;
   background-size: cover;
-  background-position-y: -90px;
   min-height: 100vh;
 }
 
