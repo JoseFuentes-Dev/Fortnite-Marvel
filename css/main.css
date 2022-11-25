@@ -275,6 +275,9 @@ section img {
   footer section .image-mobile {
     display: none;
   }
+  footer section .all-contain-details {
+    flex-direction: column;
+  }
   footer section .section1 {
     gap: 0;
   }
